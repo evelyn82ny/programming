@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    cout.width(5);
+    cout << 32 << endl;
+    cout << 32 << endl;
+    
+    cout.width(5);
+    cout << 123341 << endl;
+    
+    cout.width(15);
+    cout.fill('k');
+    cout << left << 3123 << endl;
+    
+    cout.width(15);
+    cout.fill('x');
+    cout << right << 1234 << endl;
+}
+
+   32
+32
+123341
+3123kkkkkkkkkkk
+xxxxxxxxxxx1234
